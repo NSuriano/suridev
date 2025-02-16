@@ -1,0 +1,591 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+:root {
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    --total: polygon(0 0, 100% 0, 100% 99%, 0% 100%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    width: 100vw;
+    font-family: "Monserrat", sans-serif;
+    height: auto;
+    overflow-x: hidden;
+   
+}
+
+/*main*/
+
+main {
+    width: 100%;
+    background: linear-gradient(90deg, #edf6ee 0%, #d9e7ff 100%);
+}
+
+.container-inicio {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    flex-wrap: nowrap;
+    gap: 4vw;
+    width: 100%;
+    height: 50vw;
+    background: linear-gradient(-60deg, #4b6cb7 0%, #182848 100%);
+
+
+
+    
+}
+
+.titulo{
+
+margin: 50px auto;
+width: 40%;
+padding-left: 4vw;
+
+
+h1 {
+    font-size: 1.9rem;
+    margin-bottom: 15px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 300;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    white-space: 8px;
+    color: whitesmoke;  
+
+   }
+}
+
+h3 {
+    font-size: 1rem;
+    color: #dedcdc;
+    font-family: "Monserrat", sans-serif;
+    margin: 30px auto;
+    text-align: center;
+    width: 60%;
+
+}
+
+
+
+.titulo .logo {
+    width: 12vw;
+    height: 7vw;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+
+.titulo button {
+    position: relative;
+    text-align: center;
+    text-wrap: nowrap;
+    padding: 14px 35px;
+    border-radius: 8px;
+    margin: 10px 20%;
+    border: 1px solid rgb(169, 169, 169);
+    background-color: #267dc4;
+    filter: drop-shadow(5px 5px 5px  #182848);
+    cursor: pointer;
+   
+     
+}
+
+.titulo button::before, .asesoramiento .boton::before {
+    content: "";
+    display: block;
+    background-color: #05d9dd7d;; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    z-index: -1;
+    clip-path: var(--clippy);
+    transition-property: clip-path;
+    transition: ease 700ms;
+}
+
+.titulo button:hover::before, .asesoramiento .boton:hover::before {
+    
+    text-wrap: nowrap;
+    clip-path: var(--total);      
+    
+}
+
+
+.titulo button a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+   
+}
+
+
+
+ .imagen {
+    width: 65%;
+ }
+
+.container-inicio img {
+    width: 50vw;
+    height: 36vw;
+    text-align: right;
+    
+ 
+   
+ 
+}
+
+.motivos {
+   
+    height: 50vw;
+    padding: 70px;
+    width: 100%;
+  
+    
+   
+}
+
+.motivos h2 {
+    text-align: center;
+    color: #124d84;
+    margin-bottom: 95px;
+
+    
+}
+
+.lista {
+    display: flex;
+    gap: 85px;
+    font-size: 1.2rem;
+    line-height: 4;
+    color: #173250;
+    justify-content: center;
+    margin-top: -30px;
+    
+   
+        
+    li {
+        display: flex;
+        align-items: center;
+       
+       
+    }
+
+    li img {
+        width: 35px;
+        height: 35px;
+        border-radius: 0;
+        filter: none;
+      
+     
+    }
+    
+}
+
+.motivos img {
+    width: 38vw;
+    height: 34vw;
+    border-radius: 50px 0 50px 0;
+    filter: drop-shadow(10px 10px 10px #808080b7);
+   
+
+}
+
+.plan {
+    height: 20vw;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #15407c;
+    font-weight: bold;
+    padding-top: 50px;
+   
+}  
+
+.planes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 27px;
+    gap: 30px;
+    
+    
+
+    h3 {
+        text-align: center;
+        margin: 50px 0 30px 0;
+    }
+
+    ul li {
+        font-size: 1.1rem;
+    }
+}    
+
+.profesional, 
+.landing,
+.institucional {
+        padding: 10px;
+        width: 30%;
+        height: 45vw;
+        color: white;
+        margin-top: 0px;
+        border-radius: 10px;
+        position: relative;
+        padding: 0 25px;
+        filter: drop-shadow(5px 5px 7px #808080ac);
+        font-size: 1.1rem;
+
+        strong {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fcfdfe;
+            line-height: 1.2;
+           
+        }
+}
+
+.descripcion {
+       
+      
+
+        h3 {
+          
+            margin: 40px auto;
+            font-size: 1.4rem;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        p {
+           
+            text-align: left;
+            margin-bottom: 17px;
+            line-height: 1.4;
+        }
+
+        ul{
+            margin: 10px 0;
+        }
+
+}
+
+.contratar {
+    width: 100%;
+    height: 7vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+   
+
+    button {
+        background: #F5F5F5;
+        width: 100%;
+        height: 7vw;
+        border-radius: 0 0 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        border: none;
+        text-align: center; 
+        margin-top: 0; 
+        
+        a{
+            color: #15407c;
+            padding: 10px 40px;
+            cursor: pointer;
+        }
+
+       
+                      
+    }
+
+    button:hover {
+        background: #e6e6e6;
+    }  
+
+    
+}
+
+
+.profesional{
+    background: #13538f;
+}
+
+.landing {
+    background: #2496b3;
+}
+
+.institucional {
+    background: #4b2bda; 
+}
+
+
+
+.titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #15407c;
+    font-weight: bold;
+    margin: 90px auto 50px auto;
+}
+
+
+
+
+.incluir{
+    text-align: center;
+    color: #124d84;
+    margin: 100px 0 20px 0;
+  
+}
+
+.beneficios{
+    margin-top: 90px;
+   
+
+    ul {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px auto;
+        font-size: 1.1rem;
+        color: #173250;
+        line-height: 1;
+        text-align: center;
+
+        li{
+            display: block;
+            text-align: center;
+            width: 25%;
+            height: 15vw;
+            border: 1px solid #919191d4;
+            border-radius: 7px;
+            box-shadow: 5px 5px 5px#c9c6c6dc;
+            background: #f3f2f2;
+
+            img{
+                display: block;
+                text-align: center;
+                margin: 10px auto;
+            }
+
+        }
+    }
+
+}
+
+.titulo{
+text-align: center;
+color: #124d84;
+margin: 30px auto;
+
+}
+
+.asesoramiento {
+    height: 43vw;
+    padding-top: 70px;
+    width: 100%;
+    padding: 60px 60px;
+    font-size: 1.2rem;
+    margin-top: 60px;
+    text-align: center;
+ 
+
+    p {
+        margin-top: 20px;
+        color: #173250;
+        text-align: center;
+    }
+
+    .strong {
+        text-align: center;
+    }
+
+    a {
+        color: #173250;
+        font-weight: 600;
+    }
+
+    
+}
+
+
+.asesoramiento .boton {
+  
+    box-shadow: 5px 5px 5px#b6b6b6dc;
+    position: relative;
+        text-wrap: nowrap;
+        width: 20vw;
+        height: 5vw;
+        border-radius: 8px;
+        margin: 50px 40%;
+        border: none;
+        background-color: #173250;
+        box-shadow: (2px 2px 3px #8080809c);
+        cursor: pointer;
+        
+        a {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+        
+
+        i {
+            font-size: 1.5rem;
+            color: white;
+            text-align: center;
+        }
+    }
+  
+    
+}
+
+
+.whatsapp {
+  
+    position: fixed;
+    right: 15px;
+    bottom: 40px;
+    animation: none;
+    z-index: 20;
+
+    i{
+    font-size: 3rem;
+    color: #28ef28;
+          
+    }
+
+   
+
+    a{
+        font-size: 1.1rem;
+        color:#18338c;
+        display: flex;
+        align-items: center;
+        padding: 5px 5px;
+        
+               
+    }
+}
+
+
+
+.whatsapp:hover {
+    transform: scale(1.1);
+
+}
+
+/*personalizacion de title*/
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #fbf8f8;
+    color: #180562;
+    font-size: 17px;
+    position: absolute;
+    padding: 12px 7px;
+    right: 4vw;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #666565a8;
+    opacity: 0;
+    border: none;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 25px;
+    
+}
+
+[data-title] {
+    position: relative;
+}
+
+
+/*footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, #334a7f 0%, #182848 100%);
+    width: 100%;
+    height: 17vw;
+    color: whitesmoke;
+    text-align: center;
+    padding: 3vw;
+    line-height: 1.5;
+    gap: 23vw;
+    text-wrap: nowrap;
+
+    img {
+        width: 30px;
+        height: 32px;
+    }
+
+
+}
+
+
+
+.redes a {
+
+    text-align: center;
+
+    i {
+        font-size: 2rem;
+        color: rgb(40, 201, 219);
+        text-align: center;
+        margin-top: 1vw;
+    }
+
+    i:hover {
+        transform: scale(1.2);
+    }
+
+  
+       
+    
+    
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+
+
+
+
