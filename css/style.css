@@ -562,32 +562,33 @@ span {
     }
 
     
-    .logo {
+   .titulo .logo {
        
-        width: 60px;
-        height: 10vw;
+        width: 19vw;
+        height: 12vw;
+        margin-top: 10px;
     }
 
     .titulo {
       
-        width: 50%;
+        width: 55%;
         text-align: center;
         padding: 0;
 
          h1 {
-            font-size: 4.2vw;
+            font-size: 4.6vw;
             padding: 0;
             margin-top: -15px;
         }
 
          h3 {
-            font-size: 3.2vw;
+            font-size: 3.5vw;
             margin: 3vw auto;
             padding: 0;
         }
 
         button {
-            margin-top: 12vw;
+            margin-top: 7vw;
             padding: 10px 20px;
             margin-left: 25vw;
         }
@@ -596,47 +597,75 @@ span {
        
 
     .imagen {
-        width: 50%;
-        margin-top: 0;
+        width: 45%;
+        margin: 0;
         padding: 0;
 
         img {
-            width: 100%;
-            margin-top: -50%;
+            width: 105%;
+            height: 39vw;
+            margin-top: -25%;
             padding-top: 0;
             text-align: left;
         }
     }
 
     .motivos {
-
+        width: 100%;
+        height: auto;
         padding: 0;
         margin: 30px auto;
-
+        display: block;
 
         h2 {
             text-align: left;
             padding-left: 20px; 
-            font-size: 3.5vw;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
            
         }
 
+    }
+
+    .lista {
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+
         img {
-            width: 40%;
-            padding-left: 20px;
-            margin-top: -50px;
+            width: 80%;
+            height: 47vw;
+            margin: 0 10%;
+            text-align: center;
         }
 
         ul {
-            width: 60%;
+            text-align: left;
+            width: 100%;
         }
 
-        ul li {
-            padding-left: 0;
+        li {
+            width: 100%;
+            padding-left: 20px;
+            font-size: 1rem;
+            line-height: 2;
+            gap: 5px;
+        }
+
+        li img {
+            width: 25px;
+            height: 25px;
+            margin: 0;
+            padding: 0;
         }
     }
 
-}
+
+        
+}    
+
+      
 
    
  
