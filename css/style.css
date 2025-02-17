@@ -36,7 +36,6 @@ main {
     display: flex;
     align-items: center;
     justify-content:center;
-    
     flex-wrap: nowrap;
     gap: 4vw;
     width: 100%;
@@ -103,7 +102,7 @@ h3 {
      
 }
 
-.titulo button::before, .asesoramiento .boton::before {
+.titulo button::before, .asesoramiento button::before {
     content: "";
     display: block;
     background-color: #05d9dd7d;; 
@@ -119,7 +118,7 @@ h3 {
     transition: ease 700ms;
 }
 
-.titulo button:hover::before, .asesoramiento .boton:hover::before {
+.titulo button:hover::before, .asesoramiento button:hover::before {
     
     text-wrap: nowrap;
     clip-path: var(--total);      
@@ -220,8 +219,8 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 27px;
-    gap: 30px;
+    padding: 0 40px;
+    
     
     
 
@@ -429,21 +428,23 @@ margin: 30px auto;
 }
 
 
-.asesoramiento .boton {
-  
-    box-shadow: 5px 5px 5px#b6b6b6dc;
+.asesoramiento button{
     position: relative;
-        text-wrap: nowrap;
-        width: 20vw;
-        height: 5vw;
-        border-radius: 8px;
-        margin: 50px 40%;
-        border: none;
-        background-color: #173250;
-        box-shadow: (2px 2px 3px #8080809c);
-        cursor: pointer;
+    box-shadow: 5px 5px 5px#b6b6b6dc;
+    text-wrap: nowrap;
+    width: 20vw;
+    height: 5vw;
+    border-radius: 8px;
+    margin: 50px 40%;
+    border: none;
+    background-color: #173250;
+    box-shadow: (2px 2px 3px #8080809c);
+    cursor: pointer;
         
-        a {
+}
+
+.asesoramiento button a {
+        
             display: flex;
             text-align: center;
             align-items: center;
@@ -459,10 +460,10 @@ margin: 30px auto;
             color: white;
             text-align: center;
         }
-    }
+}
   
     
-}
+
 
 
 .whatsapp {
@@ -499,35 +500,6 @@ margin: 30px auto;
 
 }
 
-/*personalizacion de title*/
-
-[data-title]:hover:after {
-    opacity: 1;
-    transition: all 0.1s ease 0.5s;
-    visibility: visible;
-}
-
-[data-title]:after {
-    content: attr(data-title);
-    background-color: #fbf8f8;
-    color: #180562;
-    font-size: 17px;
-    position: absolute;
-    padding: 12px 7px;
-    right: 4vw;
-    white-space: nowrap;
-    box-shadow: 1px 1px 3px #666565a8;
-    opacity: 0;
-    border: none;
-    z-index: 99999;
-    visibility: hidden;
-    border-radius: 25px;
-    
-}
-
-[data-title] {
-    position: relative;
-}
 
 
 /*footer*/
@@ -536,7 +508,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(60deg, #334a7f 0%, #182848 100%);
+    background: linear-gradient(60deg, #142c63 0%, #182848 100%);
     width: 100%;
     height: 17vw;
     color: whitesmoke;
@@ -546,12 +518,6 @@ footer {
     gap: 23vw;
     text-wrap: nowrap;
 
-    img {
-        width: 30px;
-        height: 32px;
-    }
-
-
 }
 
 
@@ -560,14 +526,13 @@ footer {
 
     text-align: center;
 
-    i {
-        font-size: 2rem;
-        color: rgb(40, 201, 219);
-        text-align: center;
-        margin-top: 1vw;
-    }
+   svg {
+    width: 4vw;
+    height: 4vw;
+    margin-top: 10px;
+   }
 
-    i:hover {
+    svg:hover {
         transform: scale(1.2);
     }
 
@@ -586,6 +551,92 @@ span {
 }
 
 
+/*responsivemobile*/
+
+@media (max-width: 600px) {
+
+    .container-inicio {
+    
+        height: 85vw;
+        gap: 2vw;
+    }
+
+    
+    .logo {
+       
+        width: 60px;
+        height: 10vw;
+    }
+
+    .titulo {
+      
+        width: 50%;
+        text-align: center;
+        padding: 0;
+
+         h1 {
+            font-size: 4.2vw;
+            padding: 0;
+            margin-top: -15px;
+        }
+
+         h3 {
+            font-size: 3.2vw;
+            margin: 3vw auto;
+            padding: 0;
+        }
+
+        button {
+            margin-top: 12vw;
+            padding: 10px 20px;
+            margin-left: 25vw;
+        }
+    }
+
+       
+
+    .imagen {
+        width: 50%;
+        margin-top: 0;
+        padding: 0;
+
+        img {
+            width: 100%;
+            margin-top: -50%;
+            padding-top: 0;
+            text-align: left;
+        }
+    }
+
+    .motivos {
+
+        padding: 0;
+        margin: 30px auto;
 
 
+        h2 {
+            text-align: left;
+            padding-left: 20px; 
+            font-size: 3.5vw;
+           
+        }
 
+        img {
+            width: 40%;
+            padding-left: 20px;
+            margin-top: -50px;
+        }
+
+        ul {
+            width: 60%;
+        }
+
+        ul li {
+            padding-left: 0;
+        }
+    }
+
+}
+
+   
+ 
