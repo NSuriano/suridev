@@ -555,6 +555,11 @@ span {
 
 @media (max-width: 600px) {
 
+    body {
+        overflow-x: hidden;
+        height: auto;
+    }
+
     .container-inicio {
     
         height: 85vw;
@@ -661,7 +666,119 @@ span {
         }
     }
 
+    .plan {
+        padding-top: 18px;
+        font-size: 1.1rem;
+        text-align: left;
+        margin-left: 20px;
+    }
 
+    .planes {
+        display: block;
+        width: 100%;
+
+    }
+
+    .profesional, .landing, .institucional {
+        width: 100%;
+        height: auto;
+        padding: 10px 22px 60px 22px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        font-size: 1rem;
+        text-align: justify;
+
+        strong {
+            font-size: 1rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        button {
+            padding: 30px 0;
+        }
+    }
+
+    .incluir {
+        font-size: 1.1rem;
+        margin-left: 20px;
+        text-align: left;
+    }
+    
+    .beneficios {
+
+        ul {
+            gap: 17px;
+            margin-top: -40px;
+        }
+
+        ul li {
+            width: 40%;
+            height: 35vw;
+            font-size: 0.9rem;
+            padding: 0 6px;
+
+            img {
+                width: 15vw;
+                height: 15vw;
+            }
+
+        }
+
+    }
+
+    .asesoramiento .titulo {
+        font-size: 1.3rem;
+        margin-top: -50px;
+        text-wrap: nowrap;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .sesoramiento {
+
+        margin-top: 20px;
+        height: 90vw;
+        padding: 20px 0;
+        text-align: justify;
+        
+
+        p {
+            padding: 0;
+        }
+
+        strong {
+            padding: 0;
+        }
+
+        button {
+            padding: 20px 30px;;
+        }
+
+       
+    }
+
+    footer {
+        height: 57vw;
+        display:block;
+        font-size: 1rem;
+        
+
+    }
+
+    footer .redes {
+        padding: 12px 0;
+        margin-top: 10px;
+
+
+        svg {
+            width: 13vw;
+            height: 13vw;
+        }
+    }
         
 }    
 
