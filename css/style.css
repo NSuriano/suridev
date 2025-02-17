@@ -181,6 +181,7 @@ h3 {
     li {
         display: flex;
         align-items: center;
+        gap: 7px;
        
        
     }
@@ -564,13 +565,14 @@ span {
     
         height: 85vw;
         gap: 2vw;
+        padding: 0;
     }
 
     
    .titulo .logo {
        
-        width: 19vw;
-        height: 12vw;
+        width: 24vw;
+        height: 16vw;
         margin-top: 10px;
     }
 
@@ -581,13 +583,15 @@ span {
         padding: 0;
 
          h1 {
-            font-size: 4.6vw;
+            width: 100%;
+            font-size: 4.8vw;
             padding: 0;
             margin-top: -15px;
         }
 
          h3 {
-            font-size: 3.5vw;
+            width: 100%;
+            font-size: 3.8vw;
             margin: 3vw auto;
             padding: 0;
         }
@@ -596,6 +600,7 @@ span {
             margin-top: 7vw;
             padding: 10px 20px;
             margin-left: 25vw;
+            background: #2496b3;
         }
     }
 
@@ -625,7 +630,7 @@ span {
         h2 {
             text-align: left;
             padding-left: 20px; 
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             margin-bottom: 30px;
            
         }
@@ -640,7 +645,7 @@ span {
 
         img {
             width: 80%;
-            height: 47vw;
+            height: 49vw;
             margin: 0 10%;
             text-align: center;
         }
@@ -651,24 +656,28 @@ span {
         }
 
         li {
+            align-items: center;
             width: 100%;
-            padding-left: 20px;
-            font-size: 1rem;
+            font-size: 1.1rem;
             line-height: 2;
-            gap: 5px;
+           
+
         }
+
+        
+
 
         li img {
             width: 25px;
             height: 25px;
-            margin: 0;
             padding: 0;
+            
         }
     }
 
     .plan {
         padding-top: 18px;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         text-align: left;
         margin-left: 20px;
     }
@@ -685,7 +694,7 @@ span {
         padding: 10px 22px 60px 22px;
         margin-top: 30px;
         margin-bottom: 70px;
-        font-size: 1rem;
+        font-size: 1.05rem;
         text-align: justify;
 
         strong {
@@ -703,7 +712,7 @@ span {
     }
 
     .incluir {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         margin-left: 20px;
         text-align: left;
     }
@@ -716,14 +725,14 @@ span {
         }
 
         ul li {
-            width: 40%;
-            height: 35vw;
-            font-size: 0.9rem;
+            width: 42%;
+            height: 40vw;
+            font-size: 1rem;
             padding: 0 6px;
 
             img {
-                width: 15vw;
-                height: 15vw;
+                width: 16vw;
+                height: 16vw;
             }
 
         }
@@ -731,7 +740,7 @@ span {
     }
 
     .asesoramiento .titulo {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         margin-top: -50px;
         text-wrap: nowrap;
         text-align: center;
@@ -741,12 +750,13 @@ span {
     .sesoramiento {
 
         margin-top: 20px;
-        height: 90vw;
+        height: 100vw;
         padding: 20px 0;
         text-align: justify;
         
 
         p {
+            font-size: 1.1rem;
             padding: 0;
         }
 
@@ -755,7 +765,8 @@ span {
         }
 
         button {
-            padding: 20px 30px;;
+            padding: 20px 30px;
+            font-size: 1rem;
         }
 
        
