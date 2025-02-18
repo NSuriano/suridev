@@ -470,13 +470,14 @@ margin: 30px auto;
 .whatsapp {
   
     position: fixed;
-    right: 15px;
+    right: 20px;
     bottom: 40px;
     animation: none;
     z-index: 20;
+   
 
     i{
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: #28ef28;
           
     }
@@ -557,8 +558,18 @@ span {
 @media (max-width: 600px) {
 
     body {
+        width: 100vw;
         overflow-x: hidden;
         height: auto;
+       
+
+    }
+
+    main {
+        width: 100%;
+        position: relative;
+        height: auto;
+        overflow-x: hidden;
     }
 
     .container-inicio {
@@ -590,7 +601,7 @@ span {
         }
 
          h3 {
-            width: 100%;
+            width: 95%;
             font-size: 3.8vw;
             margin: 3vw auto;
             padding: 0;
@@ -608,6 +619,7 @@ span {
 
     .imagen {
         width: 45%;
+        text-align: left;
         margin: 0;
         padding: 0;
 
@@ -628,8 +640,8 @@ span {
         display: block;
 
         h2 {
-            text-align: left;
-            padding-left: 20px; 
+            text-align: center;
+           
             font-size: 1.3rem;
             margin-bottom: 30px;
            
@@ -645,7 +657,7 @@ span {
 
         img {
             width: 80%;
-            height: 49vw;
+            height: 52vw;
             margin: 0 10%;
             text-align: center;
         }
@@ -653,14 +665,15 @@ span {
         ul {
             text-align: left;
             width: 100%;
+            ;
         }
 
         li {
             align-items: center;
-            width: 100%;
-            font-size: 1.1rem;
+            width: 90%;
+            font-size: 1.3rem;
             line-height: 2;
-           
+            margin-left: 20px;
 
         }
 
@@ -668,9 +681,10 @@ span {
 
 
         li img {
-            width: 25px;
-            height: 25px;
-            padding: 0;
+            width: 27px;
+            height: 27px;
+            margin: 0;
+           
             
         }
     }
@@ -678,7 +692,7 @@ span {
     .plan {
         padding-top: 18px;
         font-size: 1.3rem;
-        text-align: left;
+        text-align: center;
         margin-left: 20px;
     }
 
@@ -713,14 +727,13 @@ span {
 
     .incluir {
         font-size: 1.3rem;
-        margin-left: 20px;
-        text-align: left;
+        text-align: center;
     }
     
     .beneficios {
 
         ul {
-            gap: 17px;
+            gap: 10px;
             margin-top: -40px;
         }
 
@@ -729,6 +742,7 @@ span {
             height: 40vw;
             font-size: 1rem;
             padding: 0 6px;
+            margin: 0 10px;
 
             img {
                 width: 16vw;
@@ -744,38 +758,55 @@ span {
         margin-top: -50px;
         text-wrap: nowrap;
         text-align: center;
-        margin-left: 20px;
+        
     }
 
-    .sesoramiento {
-
-        margin-top: 20px;
-        height: 100vw;
-        padding: 20px 0;
-        text-align: justify;
+    .asesoramiento {
+        width: 100%;
+        margin-top: 50px;
+        height: 90vw;
+        padding: 40px 0;
+     
+      
         
 
         p {
+            width: 86%;
+            margin: 17px auto;
             font-size: 1.1rem;
-            padding: 0;
+            text-align: center;
+            white-space: 3px;
         }
 
         strong {
             padding: 0;
+            
         }
 
-        button {
-            padding: 20px 30px;
-            font-size: 1rem;
-        }
-
-       
+        
     }
 
+    .asesoramiento .boton {
+        width: 60%;
+        height: 11vw;
+        margin: 25px 10%;
+        padding: 0 5px;
+        font-size: 1.1rem;
+        box-shadow: 2px 2px 3px #9594949c;
+    }
+
+    .asesoramiento .boton:hover {
+        background: #2496b3;
+        transform: scale(1.2);
+    }
+
+
     footer {
-        height: 57vw;
-        display:block;
+       
+        height: 60vw;
+        display: block;
         font-size: 1rem;
+        
         
 
     }
