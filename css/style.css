@@ -29,7 +29,7 @@ body {
 
 main {
     width: 100%;
-    background: linear-gradient(90deg, #edf6ee 0%, #d9e7ff 100%);
+    background: linear-gradient(90deg, #ebf7ed 0%, #d9e7ff 100%);
 }
 
 .container-inicio {
@@ -51,7 +51,9 @@ main {
 
 margin: 50px auto;
 width: 40%;
-padding-left: 4vw;
+padding-left: 60px;
+
+}
 
 
 h1 {
@@ -66,7 +68,7 @@ h1 {
     color: whitesmoke;  
 
    }
-}
+
 
 h3 {
     font-size: 1rem;
@@ -136,7 +138,7 @@ h3 {
 
 
  .imagen {
-    width: 65%;
+    width: 60%;
  }
 
 .container-inicio img {
@@ -175,7 +177,8 @@ h3 {
     color: #173250;
     justify-content: center;
     margin-top: -30px;
-    
+
+  
    
         
     li {
@@ -388,6 +391,10 @@ h3 {
                 margin: 10px auto;
             }
 
+            img:hover {
+                transform: scale(1.2);
+            }
+
         }
     }
 
@@ -477,8 +484,12 @@ margin: 30px auto;
    
 
     i{
-    font-size: 3.2rem;
-    color: #28ef28;
+    font-size: 2.3rem;
+    color: whitesmoke;
+    background-color: #42d189;
+    border-radius: 100%;
+    padding: 5px;
+    z-index: 20;
           
     }
 
@@ -501,6 +512,26 @@ margin: 30px auto;
     transform: scale(1.1);
 
 }
+
+/*animation*/
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translatex(100vw);
+    }
+    100% {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+
+.contenido {
+    opacity: 0;
+    animation: aparecer 2.5s ease-in-out forwards;
+    animation-delay: calc(var(--index) * 3s); /* Ajusta el retraso según el índice */
+}
+
 
 
 
@@ -728,21 +759,24 @@ span {
     .incluir {
         font-size: 1.3rem;
         text-align: center;
+        padding: o 10px;
     }
     
     .beneficios {
 
         ul {
-            gap: 10px;
+          
             margin-top: -40px;
+            justify-content: space-evenly;
+            gap: 10px;
         }
 
         ul li {
             width: 42%;
             height: 40vw;
             font-size: 1rem;
-            padding: 0 6px;
-            margin: 0 10px;
+            padding: 0 8px;
+            
 
             img {
                 width: 16vw;
