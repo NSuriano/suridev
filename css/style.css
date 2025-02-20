@@ -477,7 +477,7 @@ margin: 30px auto;
 .whatsapp {
   
     position: fixed;
-    right: 20px;
+    right: 15px;
     bottom: 40px;
     animation: none;
     z-index: 20;
@@ -528,7 +528,7 @@ margin: 30px auto;
 
 .contenido {
     opacity: 0;
-    animation: aparecer 2.5s ease-in-out forwards;
+    animation: aparecer 2s ease-in-out forwards;
     animation-delay: calc(var(--index) * 3s); /* Ajusta el retraso según el índice */
 }
 
@@ -605,50 +605,52 @@ span {
 
     .container-inicio {
     
-        height: 85vw;
+        height: 100vw;
         gap: 2vw;
-        padding: 0;
+        padding-bottom: 5vw;
     }
 
     
    .titulo .logo {
        
-        width: 24vw;
-        height: 16vw;
+        width: 26vw;
+        height: 18vw;
         margin-top: 10px;
     }
 
     .titulo {
       
-        width: 55%;
+        width: 80%;
         text-align: center;
         padding: 0;
 
          h1 {
             width: 100%;
-            font-size: 4.8vw;
+            font-size: 7vw;
             padding: 0;
             margin-top: -15px;
         }
 
          h3 {
             width: 95%;
-            font-size: 3.8vw;
-            margin: 3vw auto;
+            font-size: 4vw;
+            margin: 2.5vw auto;
             padding: 0;
         }
 
         button {
             margin-top: 7vw;
-            padding: 10px 20px;
-            margin-left: 25vw;
+            padding: 3vw 4vw;
+            
             background: #2496b3;
+            text-align: center;
         }
     }
 
        
 
     .imagen {
+        display: none;
         width: 45%;
         text-align: left;
         margin: 0;
