@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+    background: #e5ebee;
+    color:#0e284d;
+}
+
+
+
+header {
+    width: 100%;
+    height: 14vh;
+    background: linear-gradient(to right, #0e284d 0%, #214f90fa 40%, #276dd0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+    
+}    
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+        width: 3vw; 
+        height: 6vh;
+    }
+
+   
+    p {
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+
+}
+
+h1 {
+        color: whitesmoke;
+        font-size: 2rem;
+
+    }
+
+
+nav {
+
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+     
+    img {
+        width: 3vw;
+        height: 3vh;
+    }
+
+    a{
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+}
+
+
+/*main*/
+
+.presentacion {
+    width: 100%;
+    padding-top: 1.5vw;
+   
+  
+    h2 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 50px;
+    }
+}
+
+
+/* 1er articulo web profesional */
+
+.web-profesional{
+
+    width: 100vw;
+    height: auto;
+    padding: 0 7vw;
+}
+
+.card {
+width: 100%;
+height: 55vh;
+display: flex;
+align-items: center;
+border: 2px solid #d4d3d3;
+border-radius: 8px;
+margin-bottom: 50px;
+
+    img {
+       width: 40vw;
+       height: 54.7vh;
+       text-align:center;
+       background: #b5d4e77a;
+       border-radius: 10px 0 0 10px;
+       filter:drop-shadow(5px 6px 6px #a5a5a580);
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        color:#194685f4;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .info {
+        width: 60%;
+        height: 54vh;
+        padding: 4vw;
+
+
+        p {
+        
+            font-size: 1rem;
+            text-align: justify;
+            word-spacing: 1px;
+            line-height: 1.5;
+            margin: 2vw 0;
+            
+        }
+
+        a {
+            font-size: 1.1rem;
+            font-weight: 100;
+            color:#0f1e33f4;
+            margin-top: 50px;
+            padding: 8px;
+            border: 1px solid #192535f4;
+        }
+
+        a:hover {
+            background: lightblue;
+        }
+
+    }
+
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #15152f;
+    text-align: center;
+    color: whitesmoke;
+    padding: 40px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: lighter;
+   
+
+    svg {
+        width: 3.5vw;
+        height: 3.5vw;
+        margin: 20px 0;
+    }
+
+    svg:hover {
+        transform: scale(1.2);
+        transition: ease 300ms;
+    }
+}

@@ -3,240 +3,408 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Creamos tu sitio web, landing pages y portafolios dinámicos. Las mejores páginas web para tu negocio.
-      Distingue tu emprendimiento e impulsa tus ventas hoy" />
-  
 
-    <meta property="og:title" content="Suridev Desarrollos Web" />
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="Diseño y desarrollo de sitios web. Los mejores planes y servicios para impulsar tu negocio." />
-    <meta property="og:image" content="./imagenes/Suridev.png" />
+    <meta name="author" content="Suridev" />
+    <meta name="keywords" content="presencia online, páginas web profesionales, suridev, emprendimiento, desarrollo web profesional, crear páginas web en mendoza, landing pages, las mejores páginas web profesionales, sitios web para emprendedores, diseño web, páginas web para negocios en mendoza, Argentina" />
+    <meta name="robots" content="index, follow" />
    
-    <link rel="shortcut icon" href="imagenes/logo-suridev-blanco.png" type="image/x-icon">
-    <link rel="canonical"/>
+    <meta property="og:title" content="Suridev Desarrollo Web " />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Desarrollo de páginas web profesionales, para impulsar y potenciar tu negocio"  />
+    <meta property="og:image" content="./imagenes/logo-suridev.webp" />
+   
+    <link rel="shortcut icon" href="imagenes/logo-suridev.webp" type="image/x-icon">
+    <link rel="canonical" href="https://www.suri-dev.com"/>
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Suridev Desarrollo Web - Tu mejor opción para desarrollar tu sitio web para tu negocio</title>
+    <title>Suridev Desarrollo Web| Impulsa tu negocio con la página web profesional que se merece.</title>
+    
+    <meta
+      name="description"
+      content="100% personalizada, con optimización de seo orgánico y diseño responsivo. Moderna y funcional. Excelente financiación... "
+    />
 
   </head>
 
   <body>
+
+    <header>
+      <div class="navbar">
+
+        <div class="movil">
+
+          <div class="logo">
+            <img src="imagenes/logo-suridev.webp" alt="logo suridev" />
+            <p>Suridev</p>
+          </div>
+      
+           <button id="btn-menu" ><i  class='bx  bx-menu'></i></button> 
+        
+        </div>
+
+          <nav class="nav-menu"> 
+
+            <ul class="nav-links">
+                <li class="cerrar"><button id="btn-cerrar"><i class='bx  bx-x'></i></button></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#planes">Planes</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#vlog">Blog</a></li>
+                <li><a href="#contactar">Contacto</a></li>
+            </ul>
+
+          </nav>
+      </div>
+      
+
+    </header>
+
    
     <main>
-
           
-      <section class="container-inicio" >
-        <div class="titulo contenido" style="--index: 0;">
+      <section class="container-inicio" id="inicio">
 
-          <img class="logo" src="imagenes/Suridev.png" alt="logo suridev">
+       
+          <div class="presentacion">
+        
+            <h1>POTENCIA TU NEGOCIO</h1>
 
-          <h1>Diseñamos y desarrollamos tu sitio web</h1>
-          <h3>
-            Visibiliza tu negocio con nuestros accesibles planes
+            <h2>
+              Con una página web profesional, optimizada y moderna, que centralice tus recursos.
+                      
+            </h2>
+            
+            <button class="boton"><a href="#planes" target="_blank" >Conocer planes</a></button>
+          </div>
+
+          <div class="imagen">
+              <img src="imagenes/emprendedor.gif" alt="emprendedores y dueños felices" />
+          </div>
+  
+             
+      </section>
+
            
-          </h3>
-          <button class="boton"><a href="https://api.whatsapp.com/send?phone=5492616399375&text=Asunto:%20Solicito%20cotizar%20mi%20sitio%20web" target="_blank" >Solicita tu web</a></button>
-        </div>
-
-        <div class="imagen">
-          <img src="imagenes/mockup.png" alt="creamos tu pagina web" />
-        </div>
-      </section>
-
-      <section class="motivos contenido" style="--index: 1;">
-
-        <h2>¿Por qué es imprescindible que tu negocio tenga presencia web? </h2>
-       
-        <div class="lista">
-
-          <img src="imagenes/sitioweb.png" alt="sitio web" />
-         
-          <ul>
-            <li><img src="imagenes/ok.gif" alt="ok"> Aporta valor a tu marca</li>
-            <li><img src="imagenes/ok.gif" alt="ok"> Te distingue de la competencia</li>
-            <li><img src="imagenes/ok.gif" alt="ok"> Te permite captar mayor cantidad de clientes</li>
-            <li><img src="imagenes/ok.gif" alt="ok"> Aporta credibilidad a tu negocio</li>
-
-          </ul>
-        </div>
-       
-      </section>
-     
-      <section class="servicios contenido" style="--index: 2;">
+          
+      <section class="ofrecidos" id="servicios">
       
-        <h2>¿Qué servicios ofrecemos?</h2>
+        <h2 class="titulo">Servicios que <b>impulsan</b> tu negocio</h2>
 
         <div class="item-servicio">
           <ul>
-            <li>
-              <img width="96" height="96" src="https://img.icons8.com/fluency/96/web-design--v1.png" alt="diseño web"/>
-              <p>Diseño Web</p>
-            </li>
-            <li>
-              <img width="96" height="96" src="https://img.icons8.com/fluency/96/laptop-coding.png" alt="desarrollo web"/>
-              <p>Desarrollo Web</p>
-            </li>
-            <li>
-              <img width="96" height="96" src="https://img.icons8.com/fluency/96/search-in-browser.png" alt="posicionamiento seo"/>
-              <p>Posicionamiento SEO</p>
-            </li>
-            <li>
-              <img width="96" height="96" src="https://img.icons8.com/fluency/96/window-settings--v1.png" alt="mantenimiento web"/>
-              <p>Mantenimiento Web</p>
-            </li>
+
+            <div class="gradiente">
+              <li >
+                <img width="96" height="96" 
+                src="https://img.icons8.com/fluency/96/web-design--v1.png" 
+                alt="diseño web"/>
+                <p>Diseño Web</p>
+              </li>
+            </div>
+
+            <div class="gradiente">
+              <li>
+                <img width="96" height="96" 
+                src="https://img.icons8.com/fluency/96/laptop-coding.png" 
+                alt="desarrollo web"/>
+                <p>Desarrollo Web</p>
+              </li>
+            </div>
+
+            <div class="gradiente">
+              <li>
+                <img width="96" height="96" 
+                src="https://img.icons8.com/fluency/96/search-in-browser.png" 
+                alt="posicionamiento seo"/>
+                <p>Optimización SEO</p>
+              </li>
+            </div>
+
+            <div class="gradiente">
+              <li>
+                <img width="96" height="96" 
+                src="https://img.icons8.com/fluency/96/window-settings--v1.png" 
+                alt="mantenimiento web"/>
+                <p>Mantenimiento Web</p>
+              </li>
+            </div>
+
           </ul>
 
         </div>
+         
+        <div id="planes"></div>
 
       </section>
-      
-     
-      <div>
-        
-        <h2 class="plan">
-          Nuestros planes y precios
-          </h2>
-        
-      </div>
 
+        
       
-      <section class="planes contenido" style="--index: 3;">
+      <div>
+        <h2 class="titulo">
+          Nuestros <b>planes</b> y precios
+        </h2>
+        <p class="subtitulo">Diseñados para <b>cada etapa</b> de tu negocio. 
+        Contrantando cualquier plan, tienes la opción <b>upgrade</b> 
+        para seguir escalando a <b>otros planes</b>, solo pagando la diferencia.</p>
+      </div>
+      
+
+|      <section class="catalogo">
     
               
-        <div class="profesional">
+        <div class="landing">
 
           <div class="descripcion">
-            <h3>Profesional</h3>
-            <p>Creamos tu portafolio dinámico o catálogo digital con un diseño moderno y funcional.<br> 
-            <strong>¡Muestra tu talento al mundo!</strong>
+            <h3>Plan Emprendedor</h3>
+            <p>
+              Convierte visitantes en clientes, con una página
+              optimizada para captar leads.
+             
             </p>
-                       
+            <p>
+              ✔️<b>Ideal para:</b><br>
+              emprendedores, pequeños negocios y profesionales independientes
+              que están <strong>iniciando su presencia online</strong>.
+            </p>
+            <p>
+              ✔️<b>Hasta 6 secciones...</b>
+              
+            </p>
+                   
           </div>
 
-          
+         
 
           <div class="contratar">
                     
-            <button><a  href="https://suridev-desarrollo-web.rdi.store" target="_blank" >Quiero este plan <i class='bx bx-chevron-right'></i></a></button>
+            <button><a  href="./pages/Planes.html">Quiero saber más<i class='bx bx-chevron-right'></i></a></button>
           </div>         
           
         </div>
 
-        <div class="landing">
+        
+        <div class="sitio">
 
           <div class="descripcion">
-            <h3>Landing</h3>
+
+            <p class="promo">Más vendido</p>
+            <h3>Plan Sitio clásico</h3>
             <p>
-              Convierte visitantes en clientes, con una página optimizada para captar leads o promocionar tu servicio.
-              No dejes pasar más tiempo,<br>
-              <strong>¡Animate a dar el siguiente paso!</strong>
+             Impulsa tu crecimiento online, con el sitio web profesional que tu negocio merece.<br>
+              
             </p>
+            <p>
+              ✔️<b>Ideal para:</b><br>
+              Negocios consolidados que buscan generar credibilidad y una sólida imagen de marca. 
+              Que necesitan mostrar catálogos o productos/servicios destacados.
+            </p>
+            <p>
+              ✔️<b>Hasta 4 páginas...</b>
+            </p>
+            
           </div>
-          
+
+                     
           <div class="contratar">
              
-             <button><a href="https://suridev-desarrollo-web.rdi.store" target="_blank">Quiero este plan <i class='bx bx-chevron-right'></i></a>
+             <button><a href="https://suridev.rdi.store" target="_blank">Quiero saber más<i class='bx bx-chevron-right'></i></a>
             </button>
           </div>
 
         </div>
 
-        <div class="institucional">
+
+         <div class="pagina">
 
           <div class="descripcion">
-            <h3>Institucional</h3>
-            <p>Te ofrecemos un sitio web con un diseño impactante y profesional, reflejando la trayectoria y credibilidad de tu marca en el mercado. Si ya tienes un sitio, podemos rediseñarlo y optimizarlo. No te quedes en el pasado, <strong>tu sitio web es la mejor carta de presentación de tu empresa.</strong>
-            
-                     
+            <h3>Plan Premiun</h3>
+            <p>
+              Este plan ofrece una presencia digital profesional de alto nivel para empresas y organizaciones.
+            </p>
+            <p>
+              ✔️<b>Ideal para:</b> 
+              Empresas, hoteles, estudios o corporaciones que requieren un sitio completo, sólido y escalable.
             </p>
 
-           
-          </div>
-         
-          <div class="contratar"> 
-                    
-            <button><a href="https://suridev-desarrollo-web.rdi.store" target="_blank"> Quiero este plan <i class='bx bx-chevron-right'></i></a>
-            </button>
+            <p>
+              ✔️<b>Hasta 10 páginas</b>
+            </p>
+
+             <p>
+              ✔️<b>Sitio autogestionable...</b>
+            </p>
+                   
           </div>
 
+            
+          <div class="contratar">
+                    
+            <button><a  href="./pages/Planes.html">Quiero saber más <i class='bx bx-chevron-right'></i></a></button>
+          </div>         
+          
         </div>
 
-       
+               
       </section>
 
-   
-      <section class="beneficios contenido" style="--index: 4;">
-
-        <h2 class="incluir">¿Qué incluye todos nuestros planes?</h2> 
-        
-        
       
-            <div class="beneficios">
+
+   
+      <section class="beneficios">
+        
+        <h2 class="titulo">Conocé los <b>items básicos</b> que incluyen todos nuestros <b>planes</b>. </h2> 
+                
+      
+            <div class="beneficios-ul">
                
                 <ul>
-                  <li>
-                    <img width="80" height="80" src="https://img.icons8.com/dotty/80/18338c/security-checked.png" alt="security-checked"/>
-                   
-                    Sitio seguro SSL.<br>Hosting + dominio.
-                  </li>
-                  <li>
-                    <img width="80" height="80" src="https://img.icons8.com/dotty/80/18338c/web-design.png" alt="web-design"/>
-                    Diseño personalizado.
-                  </li>
-                  <li>
-                    
-                    <img width="70" height="70" src="https://img.icons8.com/?size=100&id=43364&format=png&color=18338c" alt="optimizacion de seo"/>
-                    Optimización de búsqueda en Google.
-                  </li>
-                  <li>
-                    <img width="70" height="70" src="https://img.icons8.com/dotty/80/18338c/whatsapp.png" alt="whatsapp"/>
-                    Integración de whatsapp <br>y redes sociales.
-                  </li>
-                  <li>
-                    <img width="80" height="80" src="https://img.icons8.com/wired/64/18338c/multiple-devices.png" alt="multiple-devices"/>
-                     Diseño responsivo a cualquier dispositivo.
-                  </li>
-                  <li>
-                    <img width="80" height="80" src="https://img.icons8.com/dotty/80/18338c/google-forms.png" alt="google-forms"/>
-                    Envío de formularios
-                  </li>
+                  
+
+                  <div class="gradientes">
+                    <li>
+                      <img width="80" height="80" src="https://img.icons8.com/dotty/80/18338c/web-design.png" alt="diseño web"/>
+                      Diseño personalizado.
+                    </li>
+                  </div>
+
+                  <div class="gradientes">
+                    <li>
+                      
+                      <img width="70" height="70" src="https://img.icons8.com/?size=100&id=43364&format=png&color=18338c" alt="optimizacion de seo"/>
+                      Optimización de búsqueda<br>SEO
+                    </li>
+                  </div>
+
+                  <div class="gradientes">
+                    <li>
+                      <img width="70" height="70" src="https://img.icons8.com/dotty/80/18338c/whatsapp.png" alt="whatsapp"/>
+                      Botón de whatsapp flotante
+                    </li>
+                  </div>
+
+                  <div class="gradientes">
+                    <li>
+                      <img width="80" height="80" src="https://img.icons8.com/wired/64/18338c/multiple-devices.png" alt="múltiples dispositivos"/>
+                      Diseño responsivo a<br> cualquier dispositivo.
+                    </li>
+                  </div>
+
+                  <div class="gradientes">
+                    <li>
+                      <img width="80" height="80" src="https://img.icons8.com/dotty/80/18338c/google-forms.png" alt="formulario"/>
+                      Envío de formularios
+                    </li>
+                  </div>
+
+                   <div class="gradientes">
+                    <li>
+                      <img width="80" height="80" src="https://img.icons8.com/dotty/80/18338c/rating.png" alt="reseñas"/>
+                      Sección de reseñas.
+                    </li>
+                  </div>
 
                 </ul>
               
             </div>   
 
-      </section>  
-
-      <section class="contenido" style="--index: 5;">
+      </section> 
       
-              <div class="asesoramiento">
+      <div id="testimonios"></div>
+
+      <section class="reseñas">
+        
+        <div class="agregar-reseñas">
+          <h2 class="titulo">Lo que dicen nuestros clientes</h2>
+          <span><a class="boton" href="https://g.page/r/CcQe2pj9cyNxEBI/review" target="_blank">Agregar reseña</a></span>
+        </div>
+
+        <!-- Elfsight Google Reviews | Google Reviews -->
+        <div class="embebido"> 
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-d81159c7-12a5-495c-a3d4-78dcada45ec4" data-elfsight-app-lazy></div>
+        </div>
+        
+      </section>
+      
+      <div id="vlog">
+        <h2 class="titulo">¿Quieres saber más?</h2>
+      </div>
+             
+      <section class="blog">
                
-                  <h2 class="titulo">¿Quieres saber más?</h2>
-                  <p>Contáctanos, te brindaremos asesoramiento sobre nuestros servicios y
-                  planes.</p>
-                  <p class="strong"><strong>No pierdas esta oportunidad de crecimiento, impulsa tu marca hoy!</strong></p>
+            <div class="card">
+                <img src="./imagenes/presona-trabjando-compu.webp" alt="persona viendo escribiendo un blog">
+
+                <div class="info">
+                  <h3>Visita nuestro blog</h3>                
+                  <p>
+                    Transforma tu negocio en línea: Consejos prácticos y 
+                    estrategias innovadoras para impulsar tu crecimiento digital. 
+                    Descubrí las últimas tendencias 2025...
+                  </p>
+
+                  <a class="boton"  href="./pages/blog.html">Leer más</a>
+                </div> 
+
+            </div>
+            <div id="contactar"></div>
+
+      </section>
+
+          
+      <section class="contacto">
+
+              <div class="formulario">
+
+                <fieldset>
+                  
+                  <h3>Contacto</h3>
+                  <p>
+                    Cotiza tu proyecto. También brindamos asesoramiento 1:1
+                                   
+                  </p>
+                                  
+                  <form action="" method="post">
+                   
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required /><br>
+                   
+                    <input type="email" id="email" name="email"  placeholder="Email"  required/><br>
+                   
+                    <textarea id="consulta" name="consulta" cols= "4"  rows="4" placeholder="Haga su consulta..." required></textarea><br>
+
+                    <button class="boton" type="submit" id="enviar">Enviar</button>
+
+                  </form>
+
                  
-                  <div>                
-                    <button class="boton"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=suridevdesarrolloweb@gmail.com&su=Asesoramiento%20Web" target="_blank">
-                    <i class='bx bx-envelope'></i> Contáctanos</a></button>
-                  </div>
+                </fieldset>
+
+                <img src="./imagenes/contacto.webp" alt="persona viendo escribiendo un blog">
+
               </div>
       </section>
         
                 
       <section class="whatsapp">
-       <a href="https://api.whatsapp.com/send?phone=5492616399375" target="_blank" ><i class='bx bxl-whatsapp' data-title="Hola, ¿Puedo ayudarte?"></i></a>
-     
+       
+        <div class="mensaje">
+          <div class="burbuja">Cotiza por whatsapp</div>
+          <a href="https://api.whatsapp.com/send?phone=5492616399375" target="_blank" ><i class='bx bxl-whatsapp'></i></a>
+          
+        </div>
+
       </section>
+
+      <script src="menu.js"></script>
 
     </main>
 
     <footer>
       <div class="redes">
-        <h4>Siguenos en nuestras redes</h3>
+        <h4>Siguenos en nuestras redes</h4>
   
         <a href="https://www.instagram.com/suridev_desarrollo_web?utm_source=qr&igsh=ZWs4dGh0bDZ2ZDB6" target="_blank">
         
@@ -257,7 +425,7 @@
         
         <h4>Suridev Desarrollo web</h4>
         <p>Todos los derechos reservados</p>
-        <p>2024</p>
+        <p>2025</p>
       </div>
    </footer>
 
