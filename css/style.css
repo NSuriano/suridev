@@ -124,7 +124,7 @@ main {
 
 .container-inicio { 
    
-    background: linear-gradient(to bottom, #103463 0%, #097a9c5b 55%, #b3d1e231 96%, #d9e7ff15 100%);
+    background: linear-gradient(to bottom, #103463 0%, #0e7d9f6f 55%, #b3d1e231 96%, #d9e7ff15 100%);
     width: 100%;
     height: 100svh; 
     display: flex;
@@ -1040,15 +1040,15 @@ footer {
 
 
    .container-inicio { 
-    background: linear-gradient(to bottom, #103463 0%, #097a9c5b 55%, #b3d1e231 96%, #d9e7ff56 100%);
+    background: linear-gradient(to bottom, #3175ce 0%, #3e77b4b5 45%, #b3d1e231 98%, #d9e7ff65 100%);
     width: 100%;
-    height: 120svh;
+    height: 100svh;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     gap: 0.6vw;
-    margin-bottom: 3vw;
+   
     
     
     }
@@ -1060,7 +1060,7 @@ footer {
     width: 100%;
     color: whitesmoke;
     text-align: left;
-    margin: 0 auto 35vw auto;
+    margin: 0 auto 12vw auto;
 
         h1 {
             font-size: 2.5rem;
@@ -1089,14 +1089,13 @@ footer {
    
     .imagen {
         width: 100%;
-        margin-top: 20vh;
         text-align: center;
-        margin-right: 4vw;
+        margin: 10vh auto 0 auto;
 
         img {
-        width: 85vw;
-        height: 85vw;
-        text-align: left;
+        width: 78vw;
+        height: 75vw;
+        text-align: center;
         filter: drop-shadow(5px 5px 8px #afafafad);
 
         
@@ -1105,15 +1104,37 @@ footer {
     
     }
 
-   
+        .presentacion button {
+            position: relative;
+            text-align: center;
+            text-wrap: nowrap;
+            padding: 17px 14%;
+            border-radius: 12px;
+            margin: 20px 0 20px 5vw;
+            border: 1px solid #d4d4d4d7;
+            background: linear-gradient(to right, #033f5fe9 0%, #0681e6 100%);
+            filter: drop-shadow(5px 5px 7px #9f9f9fb7);
+            cursor: pointer;
+
+            a {
+                font-size: 1.3rem;
+            }
+    
+        
+        }
+
+    .presentacion button:hover {
+    
+        display: none;
+    }
 
     .titulo {
     width: 100%;
-    text-align: left;
+    text-align: center;
     font-size: 1.5rem;
     color: #0e284d;
     font-weight: bold;
-    padding: 10vw 6vw;
+    padding: 0;
     text-wrap: wrap;
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -1126,7 +1147,7 @@ footer {
 
 .subtitulo {
     width: 100%;
-    padding: 0 7vw; 
+    padding: 5vw 8vw; 
     color: #0e284d;
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
@@ -1139,8 +1160,8 @@ footer {
     width: 100%;
     height: auto;
     padding: 5vw;
-    margin-bottom: 20vw;
-    
+    margin-bottom: 10vw;
+    background: #d9e7ff64 ;
     
      
 
@@ -1182,7 +1203,7 @@ footer {
         flex-wrap: wrap;
         flex-direction: column;
         width: 100vw;
-        gap: 10vw;
+        gap: 1vw;
         margin: 0 auto;
 
         }
@@ -1191,14 +1212,14 @@ footer {
             
             display: block;
             text-align: center;
-            width: 90vw;
-            height: 33vh;
+            width: 80vw;
+            height: 27vh;
             padding: 3vw 0;
             border-radius: 10px;
             background: #ffffff;
             margin: 0 auto;
             border: 1px solid #c9c9c9b2;
-            filter: drop-shadow(3px 3px 5px #8484842e);
+            filter: drop-shadow(3px 3px 5px #8484844f);
             
             p {
                 margin-top: 14px;
@@ -1248,8 +1269,8 @@ footer {
 
         h3 {
             text-align: center;
-            margin: 40px 0 30px 0;
-            font-size: 1.4rem;
+            margin: 40px 0 35px 0;
+            font-size: 1.6rem;
         }
 
 
@@ -1315,13 +1336,13 @@ footer {
     }
 
     .catalogo .promo {
-    padding: 10px 5px;
-    background-color: rgb(158, 158, 158);
+    padding: 10px;
+    background-color: #9e9e9e;
     margin-left: -23px;
     margin-top: -18px;
     border-top-left-radius: 9px;
     border-bottom-right-radius: 9px;
-    width: 45%;
+    width: 55%;
     font-size: 1rem;
     }
 
@@ -1342,14 +1363,14 @@ footer {
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             border: none;
             text-align: center; 
             margin-top: 0; 
             
             a{
                 color: #15407c;
-                padding: 10px 40px;
+                padding: 10px 20px;
                 cursor: pointer;
             }
 
@@ -1381,19 +1402,19 @@ footer {
     /*Beneficios*/
 
     .gradientes {
+      background: transparent;
       border: none;
       width: 42vw;
       height: 27.5vh;
+      box-shadow: none;
     }
 
     .beneficios {
-        background: linear-gradient(180deg, #011127 0%, #154588 100%);
-        padding: 7vw 0;
-         margin-top: 30vw;
+        background: linear-gradient(180deg, #d4dded 0%, #eff0f1 100%);
+        padding: 17vw 0 0 0;
+        margin-top: 20vw;
+        height: auto;
 
-        .titulo, .subtitulo {
-            color: white;
-        }
     }
 
     .beneficios-ul{
@@ -1405,30 +1426,33 @@ footer {
         ul {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 5vw;
-            margin-bottom: 30px;
+            gap: 4vw;
+            margin: 15px 0 0 0;
 
             li{
                
-                text-align: center;
+                text-align: left;
                 width: 40vw;
-                height: 26vh;
-                border-radius: 17px;
+                height: 23vh;
+                border-radius: none;
+                border: none;
                 margin: 0 auto;
-                text-align: center;
-                background: #eaeaea;
+                text-align: left;
+                background: transparent;
                 font-size: 1.1rem;
-                color: #173250;
-                padding: 3vw;
+                color: #0e284d;
+                padding: 6vw 4vw;
+                
             
 
                 img{
                     display: block;
-                    text-align: center;
-                    margin: 7px auto;
-                    filter: drop-shadow(5px 5px 10px #87d0da9c); 
+                    text-align: left;
+                    margin: 10px 0;
+                    color: #ffffff;
                     width: 60px;
-                    height: 60px;  
+                    height: 60px; 
+                    filter: none; 
                 }
 
                 .oculto {
@@ -1442,11 +1466,7 @@ footer {
     }
 
     .beneficios ul li:hover {
-        filter: drop-shadow(7px 7px 15px #a1cae2bd);   
-        
-        img {
-            transform: scale(1.2);
-        }
+        display: none;
 
     }
 
@@ -1457,9 +1477,9 @@ footer {
     .reseñas {
 
         width: 100%;
-        height: 90vh;
+        height: 71vh;
         margin-bottom: 20px;
-        padding: 0 5vw;
+        padding: 0 6vw;
         text-align: center;
         background: white;
         
@@ -1476,18 +1496,19 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20vw;
+        gap: 10vw;
         width: 100%;
        
 
 
         h2{
-           
-            text-align: left;
+            width: 100%;
+            text-align: center;
             font-size: 1.4rem;
             color: #173250;
             text-wrap: wrap;
-            padding: 20vw 0;
+            padding: 12vw 0 12vw 6vw;
+            margin: 0 auto;
            
             
         }
@@ -1506,28 +1527,30 @@ footer {
     .blog {
         width: 100vw;
         height: auto;
-        padding: 0 5vw;
-        
-                 
+        padding: 15vw 8vw 0 8vw;
+              
     }
    
-     .vlog {
-        .titulo {
-            margin-top: -20vw;
+    #vlog {
+        height:auto;
+        margin-top: 0;
+
+        h2{
+            margin-top: 15vw;
         }
-     }   
+    }   
 
     .card {
-        width: 90vw;
+        width: 84vw;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         border: 2px solid #d6d4d4;
         border-radius: 10px;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         filter:drop-shadow(3px 3px 3px #a5a5a575);
-        margin-top: 2vw;
+        
     
         img {
             width: 100%;
@@ -1542,7 +1565,7 @@ footer {
         width: 100%;
         height: 50vh; 
         text-align: left;
-        padding: 6vw 3vw;
+        padding: 6vw 3.5vw;
         
 
         h3 {
@@ -1577,23 +1600,23 @@ footer {
     .contacto {
         width: 100vw;
         height: auto;
-        padding: 5vw 5vw 15vw 5vw;
+        padding: 0 8vw 15vw 8vw;
         
     
     }
 
 
     .formulario {
-        width: 90vw;
+        width: 84vw;
         display: flex;
         justify-content: right;
         align-items: center;
         flex-direction:column-reverse;
         gap: 9vw;
-        border: 2px solid #d3d3d3;
+        border: 2px solid #dcdbdb;
         border-radius: 10px;
         font-size: 1.2rem;
-        
+        background: #ffffff;
         
         
         img {

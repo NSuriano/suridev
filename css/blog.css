@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bungee&family=Gravitas+One&display=swap');
 
 *{
     margin: 0;
@@ -20,21 +21,45 @@ body {
 
 
 header {
-    width: 100%;
-    height: 14vh;
-    background: linear-gradient(to right, #0e284d 0%, #214f90fa 40%, #276dd0 100%);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1vw 2vw;
+    width: 87%;
+    height: 15vh;
+    background: linear-gradient(to right, #0e284de6 0%, #214f90e2 40%, #2462b8e0 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 1.5vw;
+    margin: 3vw 7vw 9vw 7vw;
+    position: fixed;
+    z-index: 50;
+
+    
+    a {
+        color: white;
+        font-size: 1.5rem;
+        padding: 0.7vw 2vw;
+    }
+
+    a:hover {
+       border: 2px solid #72a5d4;
+       border-radius: 20px;
+    
+    }
     
 }    
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+;
+
+}
 
 .logo {
 
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 
     img {
         width: 3vw; 
@@ -45,46 +70,45 @@ header {
     p {
         color: whitesmoke;
         font-size: 1.5rem;
+
     }
 
 }
 
 h1 {
         color: whitesmoke;
-        font-size: 2rem;
+        font-family: "Bungee", sans-serif;
+        font-size: 2.5rem;
 
+        b {
+            font-family: "Inter", sans-serif;
+        }
+       
     }
 
-
-nav {
-
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-     
-    img {
-        width: 3vw;
-        height: 3vh;
-    }
-
-    a{
-        color: whitesmoke;
-        font-size: 1rem;
-    }
-}
 
 
 /*main*/
 
 .presentacion {
     width: 100%;
-    padding-top: 1.5vw;
+    padding-top: 10vw;
    
   
     h2 {
-        text-align: center;
+        text-align: left;
         font-size: 1.8rem;
-        margin: 50px;
+        margin: 5vw 7vw;
+        font-weight: 500;
+    
+
+        b {
+             
+        color:#2865ab;
+        font-weight: 500;
+    
+        }
+
     }
 }
 
@@ -103,9 +127,10 @@ width: 100%;
 height: 55vh;
 display: flex;
 align-items: center;
-border: 2px solid #d4d3d3;
+border: 2px solid #d4d3d3e2;
 border-radius: 8px;
 margin-bottom: 50px;
+box-shadow: 4px 4px 5px #bbbbbb6b;
 
     img {
        width: 40vw;
@@ -155,6 +180,8 @@ margin-bottom: 50px;
 
 }
 
+
+
 footer {
     width: 100%;
     height: auto;
@@ -176,4 +203,121 @@ footer {
         transform: scale(1.2);
         transition: ease 300ms;
     }
+}
+
+
+/*responsivo movil*/
+
+@media(max-width: 500px) {
+
+    header {
+
+        height: 15vw;
+        margin-top: 5vw;
+        padding: 3vw 0;
+        
+        a {
+            font-size: 1.1rem;
+        }
+
+
+    }
+
+    .logo {
+
+        p {
+            display: none;
+        }
+
+        img {
+            width: 8vw;
+            height: 8vw;
+        }
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .presentacion {
+
+        h2 {
+            font-size: 1.3rem;
+            margin: 17vw 8vw 13vw 8vw;
+            
+        }
+    }
+
+    article {
+        width: 94%;
+
+    }
+
+    .card {
+        display: block;
+        height: auto;
+        width: 100%;
+        margin-top: 2vw;
+        
+
+        img {
+            width: 100%;
+            height: 30vh;
+        }
+
+             
+     
+
+        .info {
+            width: 100%;
+            height: 48vh;
+            padding: 4vw;
+
+            h3 {
+                width: 100%;
+
+            }
+
+
+            p {
+                width: 100%;
+                font-size: 1rem;
+                text-align: justify;
+                word-spacing: 1px;
+                line-height: 1.5;
+                margin: 5vw 0;
+                
+            }
+
+            a {
+                font-size: 1.1rem;
+                font-weight: 100;
+                color:#0f1e33f4;
+                margin: 60px 0 0 0;
+                padding: 8px;
+                border: 1px solid #192535f4;
+            }
+
+            a:hover {
+                background: lightblue;
+            }
+
+        }
+    }   
+    
+
+    footer {
+        font-size: 1.3rem;
+      
+
+        svg {
+            width: 13vw;
+            height: 13vw;
+        }
+
+        h4 {
+            font-weight: 100;
+        }
+    }
+
 }
