@@ -3,7 +3,6 @@
 
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +11,7 @@
     list-style: none;
 
 }
+
 
 body {
     width: 100vw;
@@ -390,7 +390,7 @@ h2 {
 
 .catalogo .promo {
     padding: 10px 5px;
-    background-color: rgb(158, 158, 158);
+    background-color: #7c7b7b;
     margin-left: -25px;
     margin-top: -25px;
     border-top-left-radius: 9px;
@@ -420,6 +420,10 @@ h2 {
             margin-bottom: 17px;
             line-height: 1.4;
             font-family: "Inter", sans-serif;
+
+            b {
+                font-weight: 400;
+            }
         }
 
         ul{
@@ -685,10 +689,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid #c7c7c7;
     border-radius: 10px;
     font-size: 1.2rem;
-    filter:drop-shadow(3px 3px 3px #a5a5a575);
+    box-shadow: (5px 5px 5px #b9b9b975);
    
     img {
         width: 45%;
@@ -752,10 +756,10 @@ h2 {
     justify-content: right;
     align-items: center;
     gap: 9vw;
-    border: 1px solid gray;
+    border: 1px solid  #c7c7c7;
     border-radius: 10px;
     font-size: 1.2rem;
-    filter:drop-shadow(3px 3px 3px #a5a5a575);
+    box-shadow: (5px 5px 5px #b9b9b9fe);
     
       
     img {

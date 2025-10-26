@@ -1,0 +1,444 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bungee&family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+    background: #e5ebee;
+    color:#232323;
+}
+
+
+/*header*/
+
+header {
+    width: 87%;
+    height: auto;
+    background: linear-gradient(to right, #0e284de6 0%, #214f90e2 40%, #3794e0e0 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 1.5vw;
+    margin: 3vw 7vw 9vw 7vw;
+    position: fixed;
+    z-index: 50;
+    margin-top: -13vw;
+    
+    a {
+      
+        img {
+            width: 4vw;
+            height: 4vw;
+        }
+    }
+
+        
+}    
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    img {
+        width: 3vw; 
+        height: 6vh;
+    }
+
+   
+    p {
+        color: whitesmoke;
+        font-size: 1.5rem;
+
+    }
+
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: "Bungee", sans-serif;
+    font-size: 2.2rem;
+
+    b {
+        font-family: "Inter", sans-serif;
+    }
+       
+}
+
+/*main*/
+
+.presentacion {
+    margin-top: 17vw;
+    padding: 0 7vw;
+
+    b {
+        color:#2865ab;
+    }
+}
+
+.planes-desarrollo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 13vh;
+
+    .clasico {
+    border: 2px solid #0b41f2;
+    }
+}
+
+.planes-especiales {
+    width: 100%;
+    display: flex;
+ 
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 0 5vw;
+    margin: 13vh 0;
+}
+
+.emprendedor,.premium {
+    margin-top: 0;
+}
+
+
+.card {
+    width: 27vw;
+    height: auto;
+    border: 2px solid #c5c5c5;
+    padding: 3vw 3vw 5vw 3vw;
+    margin-top: 0;
+    border-radius: 13px;
+    font-size: 1.1rem;
+    position: relative;
+    box-shadow: 4px 4px 5px #c8c8c865;
+
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 1vw;
+        
+    }
+
+    h4{
+        color:#2865ab;
+        font-size: 1.2rem; 
+    }
+
+    button {
+        width: 100%;
+        height: 8vh;
+        padding: 0;
+        border-radius: 7px;
+        border: none;
+        background: #2865ab;
+        margin-top: 2vw;
+        
+        a{
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding: 2vw;
+        }
+
+
+       
+    }
+
+    button:hover {
+        filter:drop-shadow(3px 3px 5px #8a8a8a);
+
+    }
+
+    .favorito {
+        position: absolute;
+        top: -5vh;
+        text-align: center;
+        padding: 1.2vw;
+        background: #2865ab;
+        align-items: center;
+        margin: 0 4vw;
+        color: white;
+        border-radius: 5px;
+    }
+
+    
+    .opcion {
+            margin-top: 15px;
+    }
+
+
+}
+
+.lista {
+
+    li {
+        line-height: 1.5;
+    }
+
+    .disable {
+        color:#898989;
+        font-size: 1.2rem;
+    }
+
+    .destacar {
+        font-size: 1.2rem;
+        margin-top: 1vw;
+    }
+
+    .precio {
+        text-align: center;
+        margin-top: 1vh;
+        color: #2865ab;
+        font-size: 1.4rem;
+    }
+
+   
+}
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #15152f;
+    text-align: center;
+    color: whitesmoke;
+    padding: 40px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: lighter;
+    display: flex;
+   
+   justify-content: space-evenly;
+   
+
+    svg {
+        width: 3.5vw;
+        height: 3.5vw;
+        margin: 20px 0;
+    }
+
+    svg:hover {
+        transform: scale(1.2);
+        transition: ease 300ms;
+    }
+}
+
+
+/*responsivo movil*/
+
+@media(max-width: 500px) {
+
+    header {
+    width: 89%;
+    background: linear-gradient(to right, #0e284ddc 0%, #2c64b4e2 70%, #3389cfe0 100%);
+    margin: 5vw;
+    margin-top: -32vw;
+    padding: 2vw 3.5vw;
+    
+        a {
+        
+            img {
+                width: 15vw;
+                height: 15vw;
+            }
+        }
+
+        
+    }  
+    
+    .nav {
+
+        justify-content: space-between;
+        align-items: center;
+        padding: 3vw;
+    }
+    
+    
+    .logo {
+
+        img {
+            width: 12vw; 
+            height: 7vh;
+        }
+
+    
+        p {
+            display: none;
+
+        }
+
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.7rem;
+                  
+    }
+
+    .presentacion {
+        margin-top: 44vw;
+        padding: 0 7vw;
+        
+
+    }
+
+    .planes-desarrollo {
+        
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 9vh;
+        gap: 18vw;
+
+    }
+
+    .planes-especiales {
+
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 7vw;
+        margin: 14vw 0;
+    }
+
+  
+    .card {
+        width: 87vw;
+        height: auto;
+        border: 2px solid #c5c5c5;
+        padding: 10vw 4vw;
+        font-size: 1.3rem;
+      
+        h3 {
+            font-size: 1.7rem;
+            margin-top: 1vw;
+            
+        }
+
+        h4{
+            color:#2865ab;
+            font-size: 1.4rem; 
+        }
+
+        button {
+            width: 91%;
+            height: 9vh;
+            padding: 0;
+            margin: 3vw 4%;
+            text-align: center;
+            
+            a{
+               
+                font-size: 1.4rem;
+                padding: 2vw;
+                font-weight: 600;
+            }
+
+      
+        }
+
+
+        button:hover {
+            display: none;
+
+        }
+
+
+        .favorito {
+            top: -3vh;
+            text-align: center;
+            padding: 1.5vw 4vw;
+            margin: 0 12vw;
+            
+        }
+            
+
+    }
+
+
+    .lista {
+
+        li {
+            line-height: 1.7;
+        }
+
+        .disable {
+            color:#7b7b7b;
+            font-size: 1.3rem;
+        }
+
+        .destacar {
+            font-size: 1.4rem;
+            margin-top: 4vw;
+        }
+
+        .precio {
+            text-align: center;
+            margin: 4vw auto;
+            color: #2865ab;
+            font-size: 2rem;
+        }
+
+    
+    }
+
+    /*footer*/
+
+    footer {
+        
+        font-weight: lighter;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h4 {
+            font-size: 1.3rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+    
+
+        svg {
+            width: 13vw;
+            height: 13vw;
+            margin: 20px 0;
+        }
+
+        svg:hover {
+            transform: scale(1.2);
+            transition: ease 300ms;
+        }
+    }
+
+
+
+
+}
+
+
+
+

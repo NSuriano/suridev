@@ -433,13 +433,7 @@ footer {
             height: auto;
             padding: 0 5vw;
 
-            .movil {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 3vw;
-            }
-
+           
 
             h3 {
                 text-align: left;
