@@ -1,7 +1,7 @@
 
 //menú desplegable
-const btnMenu = document.querySelector("#btn-menu");
-const btnCerrar = document.querySelector("#btn-cerrar");
+const btnMenu = document.querySelector("#boton-menu");
+const btnCerrar = document.querySelector("#boton-cerrar");
 const navbar= document.querySelector(".nav-menu");
 
 btnMenu.addEventListener("click", deslizarMenu);
